@@ -9,27 +9,27 @@ VMware vRealize Network Insight helps accelerate application security and networ
     - 800 GB - HDD, Thin provisioned
     - Medium Brick Requirement
     - 8 cores - Reservation 4096 Mhz
+    - 32 GB RAM - Reservation - 16GB
+    - Large Brick Requirement
+    - 12 cores - Reservation 6144 Mhz
+    - 48 GB RAM - Reservation - 24GB
 
-32 GB RAM - Reservation - 16GB
+- vRealize Network Insight Proxy OVA
+    - 150 GB - HDD, Thin provisioned
+    - Medium Brick Requirement
+    - 4 cores - Reservation 2048 Mhz
+    - 10 GB RAM - Reservation - 5GB
+    - Large Brick Requirement
+    - 6 cores - Reservation 3072 Mhz
+    - 12 GB RAM - Reservation - 6GB
 
-Large Brick Requirement
+**vRealize Network Insight Platform:**
+- From vCenter web client, deploy the vRNI Platform Appliance
+    - From the console of the appliance, configure the Platform Appliance
+    - Connect to the web insterface of the Platform appliance, provision a shared secret key
 
-12 cores - Reservation 6144 Mhz
-
-48 GB RAM - Reservation - 24GB
-
-vRealize Network Insight Proxy OVA
-
-150 GB - HDD, Thin provisioned
-
-Medium Brick Requirement
-
-4 cores - Reservation 2048 Mhz
-
-10 GB RAM - Reservation - 5GB
-
-Large Brick Requirement
-
-6 cores - Reservation 3072 Mhz
-
-12 GB RAM - Reservation - 6GB
+- From vCenter web client, deploy the Proxy Appliance 
+    - During the deployment, including entering the shared secret key that was generated in the web interface of the Platform Appliance.
+    - Perform the console configuration of the Proxy Appliance
+    - Go back to vRNI Platform Appluance and completed the configuration once the Proxy Appliance is detected.
+    
