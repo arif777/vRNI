@@ -4,8 +4,8 @@ VMware vRealize Network Insight helps accelerate application security and networ
 
 
 **Prerequsite of vRNI depployment:**
-- Minimum Resource Requirements
-    - vRealize Network Insight Platform OVA
+**Minimum Resource Requirements**
+- vRealize Network Insight Platform OVA
     - 800 GB - HDD, Thin provisioned
     - Medium Brick Requirement
     - 8 cores - Reservation 4096 Mhz
